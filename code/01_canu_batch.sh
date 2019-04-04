@@ -16,6 +16,6 @@ module load canu
 canu \
  -p lferriphilum -d lferriphilum-mix \
  genomeSize=2.6m \
- -pacbio-raw ERR2028*.fastq.gz \
+ -pacbio-raw GenomeAnalysis/GenomeAnalysis/data/DNA_data/ERR2028*.fastq.gz \
  stopOnReadQuality=false \
  maxThreads=4
