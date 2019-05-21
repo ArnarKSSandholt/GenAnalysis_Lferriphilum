@@ -1,0 +1,16 @@
+# For finding areas that are the same in the genome
+nucmer -maxmatch -nosimplify lferr_genome.fasta lferr_genome.fasta
+
+# For making the table with the coordinates of matches
+show-coords -lrcTH out.delta > overlap_coord.out
+
+# For cutting parts of the sequence off
+samtools faidx lferr_genome.fasta tig00000001:1-2546901 > lferr_genome_final.fasta
+
+
+# For creating the file for the MizBee synteny Browser from the Satsuma output
+BlockDisplaySatsuma -i satsuma_out/satsuma_summary.chained.out -q analyses/20190411_prokka_annotation/lferr/lferr.fna -t lferrooxidans_whole_genome.fasta > mizbee_file.txt
+
+
+
+
