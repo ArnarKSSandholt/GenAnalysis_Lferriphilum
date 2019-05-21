@@ -1,0 +1,58 @@
+Subsystem	Locus Tag 	Gene	Predicted Function
+NADH dehydrogenase	LFTS_00278		NAD(P)H-flavin reductase
+	LFTS_01220  	ndhF	NAD(P)H-quinone oxidoreductase subunit 5
+	LFTS_01821	ndhF	NAD(P)H-quinone oxidoreductase subunit 5
+	LFTS_01828	ndhF	NAD(P)H-quinone oxidoreductase subunit 5
+	LFTS_00687	nuoA	NADH-quinone oxidoreductase subunit A
+	LFTS_00688	nuoB	NADH-quinone oxidoreductase subunit B
+	LFTS_00689	nuoC	NADH-quinone oxidoreductase subunit C
+	LFTS_00690	nuoD	NADH-quinone oxidoreductase subunit D
+	LFTS_00691	nuoE	NADH-quinone oxidoreductase subunit E
+	LFTS_01451  	nuoF	NADH-quinone oxidoreductase subunit F
+	LFTS_01487	nuoE	NADH-quinone oxidoreductase subunit E
+	LFTS_02078	nuoF	NADH-quinone oxidoreductase subunit F
+	LFTS_00694	nuoH	NADH-quinone oxidoreductase subunit H
+	LFTS_00695	nuoI	NADH-quinone oxidoreductase subunit I
+	LFTS_00696	nuoJ	NADH-quinone oxidoreductase subunit J
+	LFTS_00697	nuoK	NADH-quinone oxidoreductase subunit K
+	LFTS_00698 	nuoL	NADH-quinone oxidoreductase subunit L
+	LFTS_02316	nuoL	NADH-quinone oxidoreductase subunit L
+	LFTS_00699 	nuoM	NADH-quinone oxidoreductase subunit M
+	LFTS_02315	nuoM	NADH-quinone oxidoreductase subunit M
+	LFTS_00700	nuoN	NADH-quinone oxidoreductase subunit N
+Succinate dehydrogenase / fumarate reductase	LFTS_00585 	sdhA 	Succinate dehydrogenase / fumarate reductase flavoprotein subunit
+Cytochrome bd	LFTS_00439 	cydA	Cytochrome d ubiquinol oxidase subunit I
+	LFTS_00440 	cydB 	Cytochrome d ubiquinol oxidase subunit II
+	LFTS_00441 	ybgT 	Cytochrome bd-I terminal oxidase
+Cytochrome b/c1	LFTS_00821 	qcrA	Menaquinol cytochrome b6 complex iron-sulfur subunit 1 
+	LFTS_01943	qcrA	Menaquinol cytochrome b6 complex iron-sulfur subunit 1 
+	LFTS_00822 	qcrB 	Menaquinol-cytochrome c reductase cytochrome b subunit
+Cytochrome c	LFTS_00766		Cytochrome c mono- and diheme variants
+	LFTS_02381	ccsB	Cytochrome c biogenesis protein
+	LFTS_02382	resB	Cytochrome c biogenesis protein
+	LFTS_01388		Cytochrome c551/552
+	LFTS_00732		Cytochrome c553
+	LFTS_00740		
+	LFTS_00940		Cytochrome c544
+	LFTS_00730  		Cytochrome c
+	LFTS_00731		Cytochrome c
+	LFTS_00741		Cytochrome c
+	LFTS_02378	ccdA	Cytochrome c biogenesis protein
+Cytochrome cbb3 oxidase	LFTS_01396 		Cytochrome c oxidase cbb3-type subunit I
+	LFTS_01857 		Cytochrome c oxidase cbb3-type subunit I
+	LFTS_01964		Cytochrome c oxidase cbb3-type subunit I
+	LFTS_01531 		Cytochrome c oxidase cbb3-type subunit II
+	LFTS_01972		Cytochrome c oxidase cbb3-type subunit II
+	LFTS_01351		Cytochrome c oxidase cbb3-type subunit III
+	LFTS_01930		Cytochrome c oxidase cbb3-type subunit III
+	LFTS_02094 		Cytochrome c oxidase cbb3-type subunit III
+	LFTS_02276		Cytochrome c oxidase cbb3-type subunit III
+ATP synthase	LFTS_00066	atpA	ATP synthase subunit alpha
+	LFTS_00062	atpB	ATP synthase subunit a
+	LFTS_00069	atpC	ATP synthase epsilon chain
+	LFTS_00068	atpD	ATP synthase subunit beta
+	LFTS_00063	atpE	ATP synthase subunit c
+	LFTS_00064	atpF	ATP synthase subunit b
+	LFTS_00067	atpG	ATP synthase gamma chain
+	LFTS_00065	atpH	ATP synthase subunit delta
+	LFTS_00061		Putative F0F1-ATPase subunit Ca2+/Mg2+ transporter

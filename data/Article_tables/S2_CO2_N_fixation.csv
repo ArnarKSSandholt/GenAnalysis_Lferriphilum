@@ -1,0 +1,62 @@
+Subsystem	Locus Tag 	Gene	Predicted Function
+Reductive TCA cycle carbon dioxide fixation	ROKKA_02486		Phosphoenolpyruvate carboxylase
+	LFTS_00876	mdh2	Malate dehydrogenase (NAD)
+	LFTS_01556	fumC	Fumarase class II
+	LFTS_00585		"Succinate dehydrogenase / fumarate reductase flavoprotein 
+subunit"
+	LFTS_00579	sucD	Succinyl-CoA synthetase alpha subunit
+	LFTS_00587		
+	LFTS_00586	sucC	Succinyl-CoA synthetase beta subunit
+	LFTS_02458	forA2	pyruvate ferredoxin oxidoreductase alpha subunit
+	LFTS_02457	forB2	pyruvate ferredoxin oxidoreductase beta subunit
+	LFTS_02451	forG1	pyruvate ferredoxin oxidoreductase gamma subunit
+	LFTS_02456	forG2	pyruvate ferredoxin oxidoreductase gamma subunit
+	LFTS_00965		Isocitrate dehydrogenase (NAD+)
+	LFTS_00966		Putative isocitrate dehydrogenase (NADP)
+	LFTS_00581		Aconitase
+	LFTS_00582		Citryl-CoA lyase
+	LFTS_00578		Citryl-CoA synthetase large subunit
+	LFTS_02453	forA	Pyruvate ferredoxin oxidoreductase alpha subunit
+	LFTS_02452	forB	Pyruvate ferredoxin oxidoreductase beta subunit
+	LFTS_02455	forD	Pyruvate:ferredoxin oxidoreductase delta subunit
+	LFTS_02450		Pyruvate ferredoxin oxidoreductase epsilon subunit
+	LFTS_02143	ppsA	Phosphoenolpyruvate synthase
+Calvin-Benson-Bassham cycle carbon dioxide fixation	LFTS_02524 	rbcL	Ribulose-bisphosphate carboxylase large chain
+Nitrate/nitrite regulation	LFTS_00042	ntrX	NtrC family, nitrogen regulation response regulator
+	LFTS_01867	glnG	NtrC family nitrogen regulation response regulator
+	LFTS_00534		
+	LFTS_01618		"LysR family transcriptional regulator nitrogen assimilation 
+regulator"
+	LFTS_00311		Nitrogen regulatory protein P-II family protein
+	LFTS_00704		
+	LFTS_01184		
+	LFTS_01185		
+	LFTS_01200		
+	LFTS_01203		
+	LFTS_02313		
+	LFTS_02317 		Nif-specific regulatory protein
+Nitrite uptake & assimilation to ammonia	LFTS_01202 	nasA	MFS transporter NNP family nitrate/nitrite transporter
+	LFTS_01201 	nirB	Nitrite reductase large subunit
+	LFTS_02431 	nirD	Nitrite reductase small subunit
+Nitrogenase genes	LFTS_01957	nifA	Nif-specific regulatory protein
+	LFTS_01169	nifB	FeMo cofactor biosynthesis protein
+	LFTS_01163	nifD	Mo-nitrogenase MoFe protein alpha subunit
+	LFTS_01165	nifE	Nitrogenase molybdenum-cofactor synthesis protein NifE
+	LFTS_01162	nifH	Nitrogenase iron protein
+	LFTS_01164	nifK	Mo-nitrogenase MoFe protein beta subunit
+	LFTS_01166	nifN	"Nitrogenase iron-molybdenum cofactor biosynthesis protein 
+NifN"
+	LFTS_00421		Cysteine desulfurase
+	LFTS_01174		
+	LFTS_01179	nifT	Nitrogen fixation protein
+	LFTS_00420	nifU	Scaffold protein for iron-sulfur cluster assembly
+	LFTS_01178		
+	LFTS_01167	nifX	Nitrogenase, MoFe protein
+	LFTS_01177	nifZ	Cysteine desulfurase
+	LFTS_01168		Putative nitrogen fixation protein
+	LFTS_01182		Ferredoxin nif-specific
+	LFTS_01183		Nitrogenase-stabilizing/protective protein
+Ammonia & glutamate conversion to glutamine	LFTS_00312	amt	Ammonium transporter
+	LFTS_00310	nrgA	Ammonium transporter
+	LFTS_00703	nrgA	Ammonium transporter
+	LFTS_01907	glnA	Glutamine synthetase

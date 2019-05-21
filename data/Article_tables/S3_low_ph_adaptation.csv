@@ -1,0 +1,27 @@
+Subsystem	Locus Tag 	Gene 	Predicted Function
+Role of potassium in the internal positive membrane potential	LFTS_00452	kdpC	K+-transporting ATPase C chain
+	LFTS_00453	kdpA	K+-transporting ATPase A chain
+	LFTS_00454	kdpB	K+-transporting ATPase B chain
+	LFTS_00075	kdpD	Sensor protein gene
+	LFTS_00459		
+	LFTS_02015	kch	Voltage-gated potassium channel
+	LFTS_02359	trkA	Voltage-gated potassium channel
+	LFTS_00343		Ca2+-Na+/H+ antiporter
+	LFTS_01531	chaC	Cation transport protein
+	LFTS_00392		Na+/H+ antiporter CPA family
+	LFTS_02006		Monovalent cation:H+ antiporter CPA1 family
+	LFTS_02015		
+Proton consuming reactions	LFTS_00495		Glutamate decarboxylase
+	LFTS_00855	ldcC	Arginine decarboxylase
+	LFTS_02102	panD	L-aspartate 1-decarboxylase
+	"LFTS_00030 
+LFTS_00296"		Carbonic anhydrase
+Spermidine	LFTS_00856 	speE	Spermidine synthase
+	LFTS_00857 	speH	S-adenosylmethionine decarboxylase
+	LFTS_01989 		Glutathionylspermidine synthase preATP-grasp
+Chaperones	LFTS_00851	groL	Chaperonin GroEL
+	LFTS_00258	clpB	ClpB protein
+	LFTS_00785	clpC	ATP-dependent Clp protease
+	LFTS_00927		
+	LFTS_00839		Clp protease
+	LFTS_00948		Molecular chaperone DnaK

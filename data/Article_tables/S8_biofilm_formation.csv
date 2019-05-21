@@ -1,0 +1,139 @@
+Subsystem	Locus Tag	Gene	Predicted Function
+Cellulose production	LFTS_00736	bcsQ	Cellulose biosynthesis protein
+	LFTS_00738	bcsB	Cellulose synthase subunit
+	LFTS_00739	bcsA	Cellulose synthase (UDP-forming)
+	LFTS_02306	rexA	Cellulase family 8, oligosaccharide reducing-end xylanase
+	LFTS_02307	bcsB	Cellulose synthase subunit
+	LFTS_02308	bcsA	Cellulose synthase (UDP-forming) PilZ domain-containing protein
+	LFTS_02310	bcsA	Cellulose synthase (UDP-forming)
+	LFTS_02311	bcsC	Probable cellulose synthase operon protein C
+putative pel operon	LFTS_01242	pelG	Putative membrane protein
+	LFTS_01243	pelF	Pellicle/biofilm biosynthesis glycosyltransferase
+	LFTS_01244	"mpeU 
+(pelE)"	Bilin biosynthesis protein
+	LFTS_01245	pelD	Response regulator receiver modulated diguanylate cyclase
+	LFTS_01246		Glycoside-hydrolase family GH114
+	LFTS_01247	"lpoB 
+(pelC)"	Outer membrane lipoprotein
+	LFTS_01248		Putative PEP-CTERM system tetratricopeptide repeat lipoprotein
+	LFTS_01249		Putative PEP-CTERM system tetratricopeptide repeat lipoprotein
+	LFTS_01250	pelA	"Putative membrane protein-like protein, polysaccharide 
+deacetylase"
+Lipopolysaccharide synthesis	LFTS_00080	lkxH	UDP-2,3-diacylglucosamine pyrophosphatase
+	LFTS_00081		1,2-diacylglycerol 3-beta-galactosyltransferase
+	LFTS_01292	lpxD	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase
+	LFTS_01293	fabZ	3R-hydroxymyristoyl-[acyl-carrier-protein] dehydratase
+	LFTS_01294	lpxA	UDP-N-acetylglucosamine O-acyltransferase
+	LFTS_01297	lpxB	Lipid-A-disaccharide synthase
+	LFTS_01299	msbA	"Fused lipid transporter subunits of ABC superfamily: membrane 
+component/ATP-binding cassette"
+	LFTS_01300	"kdtA, 
+waaA"	3-deoxy-D-manno-octulosonic-acid transferase
+	LFTS_01301	lpxK	Lipid A tetraacyldisaccharide 4'-kinase
+	LFTS_01302	lpxL	Lauryl-acyl carrier protein (ACP)-dependent
+	LFTS_01303	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_01304	rfaC	ADP-heptose:LPS heptosyl transferase I
+	LFTS_01305	rfaC	ADP-heptose:LPS heptosyl transferase I
+	LFTS_01306	kdtX	Lipopolysaccharide core biosynthesis glycosyl transferase
+	LFTS_01307	wbdM	Glycosyltransferase
+	LFTS_01298		Glycosyl transferase family protein
+	LFTS_01308		Glycosyl transferase family protein
+	LFTS_01310		Glycosyl transferase family protein
+	LFTS_01311	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_01312	gmhB	D,D-heptose 1,7-bisphosphate phosphatase
+	LFTS_01314	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_01315	rfaQ	Lipopolysaccharide core biosynthesis protein
+	LFTS_01316	pgaB	"Biofilm adhesin polysaccharide PGA export lipoprotein with a 
+polysaccharide deacetylase activity needed for export"
+	LFTS_01317	pimB	Group 1 glycosyl transferase
+	LFTS_01323	rfaL	O-antigen ligase
+	LFTS_01328	arnT	4-amino-4-deoxy-L-arabinose transferase
+	LFTS_01329	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_01330	DPM1	Dolichol-phosphate mannosyltransferase
+	LFTS_01331	arnT	4-amino-4-deoxy-L-arabinose transferase
+	LFTS_01345	lptG	"Lipopolysaccharide export ABC permease of the LptBFGC export 
+complex"
+	LFTS_01346	lptF	"Lipopolysaccharide export ABC permease of the LptBFGC export 
+complex"
+	LFTS_01629	rfaD	ADP-L-glycero-D-mannoheptose-6-epimerase
+	LFTS_01631	mef	Macrolide-efflux protein
+	LFTS_01632	BGLUT	UDP-glucose:tetrahydrobiopterin glucosyltransferase
+	LFTS_01633	otsA	Trehalose 6-phosphate synthase
+	LFTS_01634	otsB	Trehalose 6-phosphate phosphatase
+	LFTS_01635	rfbD, rmlD	dTDP-4-dehydrorhamnose reductase
+	LFTS_01721	arnE	Undecaprenyl phosphate-alpha-L-ara4N exporter
+	LFTS_01782	hddC	"D-glycero-alpha-D-manno-heptose 1-phosphate
+guanylyltransferase"
+	LFTS_01783	galE	UDP-galactose-4-epimerase
+	LFTS_01808	rfaF	ADP-heptose:LPS heptosyltransferase
+	LFTS_01809	mtfB	Mannosyltransferase, alpha-1,3-rhamnosyltransferase
+	LFTS_01810		Putative group 1 glycosyltransferase
+	LFTS_01811	wbpX	Glycosyltransferase, alpha-1,2-rhamnosyltransferase
+	LFTS_01812	"ABC-
+2.LPSE.A"	Lipopolysaccharide transport system ATP-binding protein
+	LFTS_01813	"ABC-
+2.LPSE.P"	Lipopolysaccharide transport system permease protein
+	LFTS_01814	rfbP	Undecaprenyl-phosphate galactose phosphotransferase
+	LFTS_01815	pimB	"Group 1 glycosyl transferase, phosphatidylinositol alpha-1,6-
+mannosyltransferase"
+	LFTS_01816	mtfB	Mannosyltransferase, alpha-1,3-rhamnosyltransferase
+	LFTS_02328	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_02329	cgeB	Spore maturation protein
+	LFTS_02330	rfaF	ADP-heptose:LPS heptosyltransferase II
+	LFTS_02331	tam	Putative trans-aconitate 2-methyltransferase
+	LFTS_02332	cgeB	Spore maturation protein
+	LFTS_02488	lpxC	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase
+Extracellular polysaccharide production and export	LFTS_00424	wzzE	Polysaccharide chain length modulation protein
+	LFTS_00488	rfbB, rffG	dTDP-glucose 4,6-dehydratase
+	LFTS_00489	rfbA, rffA	Glucose-1-phosphate thymidylyltransferase
+	LFTS_00121	rfbA, rffA	Glucose-1-phosphate thymidylyltransferase
+	LFTS_00490	rfbC,rmlC	dTDP-4-dehydrorhamnose 3,5-epimerase
+	LFTS_00492	(algK)	Sel-1 repeat protein
+	LFTS_00528	pimA	Phosphatidylinositol alpha-mannosyltransferase
+	LFTS_00529		Glycosyl transferase family protein
+	LFTS_00530		Glycosyl transferase family protein
+	LFTS_00531		Glycosyl transferase family protein
+	LFTS_00532		Glycosyl transferase family protein
+	LFTS_00540		Glycosyl transferase family protein
+	LFTS_00535		EpsI family protein
+	LFTS_00536	epsH	Eight transmembrane protein, glycosyltransferase
+	LFTS_00537	rfbA, rffA	Glucose-1-phosphate thymidylyltransferase
+	LFTS_00538		Putative PEP-CTERM system histidine kinase
+	LFTS_00539		Putative PEP-CTERM system histidine kinase
+	LFTS_00541	wbdM	Glycosyltransferase
+	LFTS_00543		"Putative inner membrane protein, O-antigen polymerase, 
+Exopolysaccharide biosynthesis family protein"
+	LFTS_00544	rfaG	Glucosyltransferase I
+	LFTS_00545	rfaG	Glucosyltransferase I
+	LFTS_00546	pimB	"Group 1 glycosyl transferase, phosphatidylinositol alpha-1,6-
+mannosyltransferase"
+	LFTS_00547	pgaC, icaA	"Predicted glycosyl transferase, biofilm PGA synthesis N-
+glycosyltransferase"
+	LFTS_00548	pgaB	"Biofilm adhesin polysaccharide PGA export lipoprotein with a 
+polysaccharide deacetylase activity needed for export"
+	LFTS_00550	wza	Polysaccharide export outer membrane protein
+	LFTS_00551	wcaJ	"Putative colanic acid biosysnthesis UDP-glucose lipid carrier 
+transferase"
+	LFTS_00552	wzz	Chain length determinant protein
+	LFTS_00565	glf	UDP-galactopyranose mutase
+	LFTS_00566		UDP-glucuronate 4-epimerase
+	LFTS_00568		"PilZ domain-containing protein, sigma 54-dependent response 
+regulator"
+	LFTS_00569	glmS	Glucosamine--fructose-6-phosphate aminotransferase
+	LFTS_00570	wbpA	UDP-N-acetyl-D-glucosamine dehydrogenase
+	"LFTS_00572 
+LFTS_00683 
+LFTS_00656"	galE	UDP-galactose-4-epimerase
+	LFTS_00573		"PilZ domain-containing protein, sigma 54-dependent response 
+regulator"
+	LFTS_00769	pmm, pgm	Phosphomannomutase / phosphoglucomutase
+	LFTS_00770	"algA, xanB, 
+rfbA, 
+wbpW, 
+pslB"	"Mannose-1-phosphate guanylyltransferase / mannose-6-
+phosphate isomerase"
+	LFTS_01394	pgm	Phosphoglucomutase
+	LFTS_01526	uxs 1	UDP-glucuronate decarboxylase 1
+	LFTS_01528	ugd	UDP-glucose 6-dehydrogenase
+	LFTS_01564		Membrane protein
+	LFTS_02426	galT	Galactose-1-phosphate uridylyltransferase

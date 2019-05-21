@@ -1,0 +1,56 @@
+Subsystem	Locus Tag	Gene 	Predicted Function
+Quorum sensing	LFTS_00514	rpfF	DSF synthase
+	LFTS_00515	rpfC	Hpt domain-containing protein
+	LFTS_00516	rpfC	Signal transduction histidine kinase
+	LFTS_00517	rpfG	Two-component system response regulator
+	LFTS_00133		Regulatory protein luxR family
+	LFTS_00589	sdiA	"Quorum-sensing transcriptional activator; LuxR family 
+transcriptional regulator"
+	LFTS_01215		Autoinducer binding domain
+	LFTS_01241	sdiA	LuxR family transcriptional regulator
+c-di-GMP specific phosphodiestereases (EAL domain-containing proteins)	LFTS_00034	gmr csgD	EAL domain c-di-GMP-specific phosphodiesterase class I (or its enzymatically inactive variant)
+	LFTS_00314	gmr csgD	EAL domain c-di-GMP-specific phosphodiesterase class I (or its enzymatically inactive variant)
+Genes encoding proteins with EAL and GGDEF domains	LFTS_00089		Diguanylate cyclase / phosphodiesterase with GAF sensor
+	LFTS_00405		"PAS/PAC and Chase sensor-containing diguanylate 
+cyclase/phosphodiesterase"
+	LFTS_00479		Signalling repeat/GGDEF domain/EAL domain protein
+	LFTS_00575		Signalling repeat/GGDEF domain/EAL domain protein
+	LFTS_00733		Signalling repeat/GGDEF domain/EAL domain protein
+	LFTS_00493		Diguanylate cyclase/phosphodiesterase with PAS/PAC sensor(S)
+	LFTS_00663 		Diguanylate cyclase/phosphodiesterase with PAS/PAC sensor(S)
+	LFTS_00709		Diguanylate cyclase/phosphodiesterase with PAS/PAC sensor(S)
+	LFTS_01908		Diguanylate cyclase/phosphodiesterase with PAS/PAC sensor(S)
+	LFTS_00968		"Diguanylate cyclase/phosphodiesterase with GAF sensor 
+Diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains)"
+	LFTS_01006		Diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains)
+	LFTS_01595		"Response regulator receiver modulated diguanylate 
+cyclase/phosphodiesterase with PAS/PAC sensor(S)"
+Putative diguanylate cyclases (GGDEF domain-containing proteins)	LFTS_00174	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_00501	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_00511	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_00714	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_00872	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_01061	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_02076	dosC	"Diguanylate cyclase; cold- and stationary phase-induced oxygen-
+dependent biofilm regulator"
+	LFTS_00029		GGDEF family protein diguanylate cyclase
+	LFTS_00503		GGDEF family protein diguanylate cyclase
+	LFTS_00562		GGDEF family protein diguanylate cyclase
+	LFTS_00858		GGDEF family protein diguanylate cyclase
+	LFTS_01493		GGDEF family protein diguanylate cyclase
+	LFTS_01845		GGDEF family protein diguanylate cyclase
+	LFTS_02591		GGDEF family protein diguanylate cyclase
+	LFTS_00306		Response regulator receiver modulated diguanylate cyclase
+	LFTS_01577		Response regulator receiver modulated diguanylate cyclase
+	LFTS_00510		"PAS domain S-box-containing protein/diguanylate cyclase 
+(GGDEF) domain-containing protein"
+c-di-GMP effector proteins	LFTS_00568		PilZ domain-containing protein
+	LFTS_00573		PilZ domain-containing protein
+	LFTS_02308		PilZ domain-containing protein
+	LFTS_00504	popA	two-component system cell cycle response regulator

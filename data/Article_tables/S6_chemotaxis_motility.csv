@@ -1,0 +1,62 @@
+Subsystem	Locus Tag  	Gene	Predicted Function
+Chemotaxis	LFTS_00183		methyl-accepting chemotaxis protein
+	LFTS_00227		methyl-accepting chemotaxis protein
+	LFTS_01445		methyl-accepting chemotaxis protein
+	LFTS_01455		methyl-accepting chemotaxis protein
+	LFTS_01548		methyl-accepting chemotaxis protein
+	LFTS_01731		methyl-accepting chemotaxis protein
+	LFTS_02147		methyl-accepting chemotaxis protein
+	LFTS_00223	cheR	chemotaxis protein methyltransferase
+	LFTS_00224	cheY3	"two-component systemchemotaxis familyresponse 
+regulator"
+	LFTS_00225	cheA	two-component systemchemotaxis familysensor kinase
+	LFTS_00226	cheB	"two-component systemchemotaxis familyresponse 
+regulator"
+	LFTS_00228	cheW	purine-binding chemotaxis protein
+	LFTS_00229	motA	chemotaxis protein
+	LFTS_00230	motB1	chemotaxis protein
+	LFTS_00710	cheZ	chemotaxis protein
+	LFTS_00799	cheV	"two-component systemchemotaxis familyresponse 
+regulator"
+	LFTS_02318	fliM	flagellar motor switch protein
+Motility	LFTS_00196	fleQ	"sigma-54 specific transcriptional regulator, flagellar 
+regulatory protein A"
+	LFTS_00198	flrB	two-component systemsensor histidine kinase
+	LFTS_00199	flrC	two-component systemresponse regulator
+	LFTS_00200	flgB	flagellar basal-body rod protein
+	LFTS_00201	flgC	flagellar basal-body rod protein
+	LFTS_00202	fliE	flagellar hook-basal body complex protein
+	LFTS_00203	fliF	flagellar M-ring protein
+	LFTS_00204	fliG	flagellar motor switch protein
+	LFTS_00205	fliH	putative flagellar assembly protein
+	LFTS_00206	fliI/YscN	type III secretion system ATPase
+	LFTS_00207	fliJ	flagellar export protein
+	LFTS_00209	fliK	hook-length control protein
+	LFTS_00210	flgD	flagellar basal-body rod modification protein
+	LFTS_00211	flgE	flagellar hook protein
+	LFTS_00212	fliL	flagellar protein
+	LFTS_00213	fliN/fliY	flagellar motor switch protein
+	LFTS_00214	fliO/fliY	flagellar protein
+	LFTS_00215	fliP	flagellar biosynthetic protein
+	LFTS_00216	fliQ	flagellar biosynthetic protein
+	LFTS_00217	fliR	flagellar biosynthetic protein
+	LFTS_00218	flhB	flagellar biosynthetic protein
+	LFTS_00219	flhA	flagellar biosynthesis protein
+	LFTS_00220	flhF	flagellar biosynthesis protein
+	LFTS_00221	flhG	flagellar biosynthesis protein
+	LFTS_00222	fliA	RNA polymerase sigma factor for flagellar operon
+	LFTS_02334	fliS	flagellar protein
+	LFTS_02335	fliD	flagellar hook-associated protein 2
+	LFTS_02336	fliC1	flagellin
+	LFTS_02337	fliW	flagellar assembly factor
+	LFTS_02339	flgL	flagellar hook-associated protein
+	LFTS_02340	flgK	flagellar hook-associated protein
+	LFTS_02341	flgN	export chaperone for FlgK and FlgL
+	LFTS_02342	flgM	anti-sigma-28 factor
+	LFTS_02343	fliC2	flagellin
+	LFTS_02344	flgJ	flagellar protein
+	LFTS_02345	flgI	flagellar P-ring protein precursor
+	LFTS_02346	flgH	flagellar L-ring protein precursor
+	LFTS_02347	flgA	flagella basal body P-ring formation protein
+	LFTS_02348	flgG	flagellar basal-body rod protein
+	LFTS_02349	flgE	flagellar basal-body rod protein

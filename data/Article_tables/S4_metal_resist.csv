@@ -1,0 +1,39 @@
+Subsystem	Locus Tag 	Gene 	Predicted Function
+Arsenic resistance	LFTS_00324 	arsR	As transcriptional repressor
+	LFTS_00753  	arsB	As efflux membrane subunit
+	LFTS_00754  	arsC	Arsenate reductase
+Copper resistance	LFTS_02050		Copper-exporting P-type ATPase
+	LFTS_00313		
+	LFTS_00752	copZ	Periplasmic copper-binding
+	LFTS_00684	cutA	Cu(II) binding protein
+Copper/silver resistance	LFTS_00919	cusA	Cu(I)/Ag(I) efflux system membrane protein
+	LFTS_00166	cusB	Cu(I)/Ag(I) membrane fusion protein
+	LFTS_02435		
+	LFTS_00920		
+	LFTS_01521		
+	LFTS_02071	cusC	Cu(I)/Ag(I)  efflux system, outer membrane component
+	LFTS_00918	cusF	Cu(I)/Ag(I) efflux protein
+	LFTS_02048		
+Cadmium/cobalt/zinc resistance	LFTS_00167	czcA	Cd/Co/Zn H+-K+ efflux
+	LFTS_01520		
+	LFTS_01619		
+	LFTS_02037		
+	LFTS_02038	czcB	RND family efflux transporter MFP subunit
+	LFTS_00326		
+	LFTS_01620		
+	LFTS_02419		
+	LFTS_02423		
+	LFTS_02039	czcC	Outer membrane protein cobalt-zinc-cadmium efflux system
+	LFTS_01521		
+	LFTS_00665	czcD	Cation diffusion facilitator family transporter
+	LFTS_02043		Cobalt-zinc-cadmium efflux system protein
+Mercury resistance	LFTS_00560	merR	Mercuric resistance operon regulatory protein
+	LFTS_00559	merA	Mercuric reductase
+	LFTS_01909		
+	LFTS_01157		
+	LFTS_01156	merC	Resistance protein
+	LFTS_00558		Mercuric ion transport protein
+Metal tolerance	LFTS_00076		Heavy-metal resistance protein
+	 LFTS_00755		
+	LFTS_01059		
+	LFTS_02594		
