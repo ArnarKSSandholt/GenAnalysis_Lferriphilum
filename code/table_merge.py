@@ -33,7 +33,7 @@ for file_name in input_list:
                 merger = csv.writer(output, delimiter="\t")
                 header = ["Subsystem", "Locus_tag", "Gene", "Predicted_function", "Canu_id",\
                         "Prokka_annotation", "Article_id", "Article_annotation", "EggNOG_annotation",\
-                        "EggNOG_gene_name", "GO_terms", "KEGG_KO", "BiGG_reactions", "COG_cat"]
+                        "EggNOG_gene_name", "GO_terms", "EC_number", "KEGG_KO", "BiGG_reactions", "COG_cat"]
                 merger.writerow(header)
                 i += 1
                 for row in table:

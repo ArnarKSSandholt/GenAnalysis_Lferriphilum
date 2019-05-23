@@ -1,9 +1,10 @@
 # R script for doing the RNA expression analysis
 # Requires having made two files, count_table.csv with the counts for each gene in each condition and
-# column_data.csv with information on each condition.  For plotting the results, you also need the plot_table file.
+# column_data.csv with information on each condition.  For plotting the results, you also need the plot_table file. 
 
 library(DESeq2)
 library(ggplot2)
+library(scales)
 
 coldata_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/column_data.csv"
 table_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/count_table.csv"
@@ -44,7 +45,8 @@ ggplot(plot_df, aes(x = Generalized.functional.category, y = log2FC)) +
   scale_alpha_manual(values=c(1,0.5)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   geom_hline(yintercept=0) +
-  ylim(-5,7.5)
+  ylim(-5,7.5) +
+  xlab("Generalized functional categories")
 
 
 

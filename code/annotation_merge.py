@@ -20,7 +20,7 @@ with open(eggNOG_ann, "r") as egg:
         with open(output_name, "w") as output:
             merger = csv.writer(output, delimiter="\t")
             header = ["Canu_id", "Prokka_annotation", "Article_id", "Article_annotation", "EggNOG_annotation",\
-                    "EggNOG_gene_name", "GO_terms", "KEGG_KO", "BiGG_reactions", "COG_cat"]
+                    "EggNOG_gene_name", "GO_terms", "EC_number", "KEGG_KO", "BiGG_reactions", "COG_cat"]
             merger.writerow(header)
             i = 1
             for entry in blast_comparison:
@@ -34,19 +34,21 @@ with open(eggNOG_ann, "r") as egg:
                             line.append(entry.descriptions[0].title[ident+1:ident+11])
                             line.append(entry.descriptions[0].title[ident+12:])
                     if i < len(eggNOG_annotation) and eggNOG_annotation[i][0] == record.id:
-                        j = 4
-                        while j < 13:
+                        j = 5
+                        while j < 21:
                             line.append(eggNOG_annotation[i][j])
-                            if j == 7:
-                                j += 4
+                            if j == 8:
+                                j += 8
+                            elif j == 16:
+                                j += 3
                             else:
                                 j += 1
                         i += 1
-                    if len(line) == 10:
-                        new_line = [None]*10
+                    if len(line) == 11:
+                        new_line = [None]*11
                         new_line[0:4] = line[0:4]
-                        new_line[4] = line[9]
-                        new_line[5:] = line[4:9]
+                        new_line[4] = line[10]
+                        new_line[5:] = line[4:10]
                         line = new_line
                     merger.writerow(line)
                     if str(record.id) == entry.query[0:14]:
