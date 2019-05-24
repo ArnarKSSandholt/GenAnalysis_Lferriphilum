@@ -1,0 +1,22 @@
+Assembly	lferriphilum.contigs
+# contigs (>= 0 bp)	8
+# contigs (>= 1000 bp)	8
+# contigs (>= 5000 bp)	7
+# contigs (>= 10000 bp)	7
+# contigs (>= 25000 bp)	6
+# contigs (>= 50000 bp)	2
+Total length (>= 0 bp)	2794451
+Total length (>= 1000 bp)	2794451
+Total length (>= 5000 bp)	2791245
+Total length (>= 10000 bp)	2791245
+Total length (>= 25000 bp)	2776039
+Total length (>= 50000 bp)	2629197
+# contigs	8
+Largest contig	2577733
+Total length	2794451
+GC (%)	53.72
+N50	2577733
+N75	2577733
+L50	1
+L75	1
+# N's per 100 kbp	0.00

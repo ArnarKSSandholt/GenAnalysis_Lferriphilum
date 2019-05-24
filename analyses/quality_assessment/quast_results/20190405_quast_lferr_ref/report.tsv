@@ -1,0 +1,49 @@
+Assembly	lferriphilum.contigs
+# contigs (>= 0 bp)	8
+# contigs (>= 1000 bp)	8
+# contigs (>= 5000 bp)	7
+# contigs (>= 10000 bp)	7
+# contigs (>= 25000 bp)	6
+# contigs (>= 50000 bp)	2
+Total length (>= 0 bp)	2794451
+Total length (>= 1000 bp)	2794451
+Total length (>= 5000 bp)	2791245
+Total length (>= 10000 bp)	2791245
+Total length (>= 25000 bp)	2776039
+Total length (>= 50000 bp)	2629197
+# contigs	8
+Largest contig	2577733
+Total length	2794451
+Reference length	2610531
+GC (%)	53.72
+Reference GC (%)	54.14
+N50	2577733
+NG50	2577733
+N75	2577733
+NG75	2577733
+L50	1
+LG50	1
+L75	1
+LG75	1
+# misassemblies	4
+# misassembled contigs	3
+Misassembled contigs length	2645521
+# local misassemblies	0
+# unaligned mis. contigs	0
+# unaligned contigs	5 + 0 part
+Unaligned length	148930
+Genome fraction (%)	97.566
+Duplication ratio	1.039
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	0.12
+# indels per 100 kbp	3.57
+Largest alignment	1921378
+Total aligned length	2645396
+NA50	1921378
+NGA50	1921378
+NA75	644322
+NGA75	644322
+LA50	1
+LGA50	1
+LA75	2
+LGA75	2
