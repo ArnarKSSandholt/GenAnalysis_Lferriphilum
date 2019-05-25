@@ -1,0 +1,42 @@
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028495.fastq.gz
+#
+name   ERR2028495
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028495.fastq.gz
+
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028496.fastq.gz
+#
+name   ERR2028496
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028496.fastq.gz
+
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028497.fastq.gz
+#
+name   ERR2028497
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028497.fastq.gz
+
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028500.fastq.gz
+#
+name   ERR2028500
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028500.fastq.gz
+
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028501.fastq.gz
+#
+name   ERR2028501
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028501.fastq.gz
+
+########################################
+#  pacbio-raw: /crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028502.fastq.gz
+#
+name   ERR2028502
+preset pacbio-raw
+/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028502.fastq.gz
+

@@ -1,0 +1,53 @@
+
+Starting file './lferriphilum.gkpStore.gkp'.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028495.fastq.gz'
+    Processed 272460 lines.
+    Loaded 430589761 bp from:
+      54492 FASTQ format reads (430589761 bp).
+    WARNING: 20261 reads (37.1816%) with 8722181 bp (1.9854%) were too short (< 1000bp) and were ignored.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028496.fastq.gz'
+    Processed 272455 lines.
+    Loaded 410111572 bp from:
+      54491 FASTQ format reads (410111572 bp).
+    WARNING: 22513 reads (41.3151%) with 7697988 bp (1.8425%) were too short (< 1000bp) and were ignored.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028497.fastq.gz'
+    Processed 272465 lines.
+    Loaded 435541647 bp from:
+      54493 FASTQ format reads (435541647 bp).
+    WARNING: 21129 reads (38.7738%) with 8077116 bp (1.8207%) were too short (< 1000bp) and were ignored.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028500.fastq.gz'
+    Processed 272465 lines.
+    Loaded 577454977 bp from:
+      54493 FASTQ format reads (577454977 bp).
+    WARNING: 15367 reads (28.2000%) with 5589138 bp (0.9586%) were too short (< 1000bp) and were ignored.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028501.fastq.gz'
+    Processed 272465 lines.
+    Loaded 537398256 bp from:
+      54493 FASTQ format reads (537398256 bp).
+    WARNING: 18057 reads (33.1364%) with 5387372 bp (0.9925%) were too short (< 1000bp) and were ignored.
+
+  Loading reads from '/crex/proj/g2019003/nobackup/private/3_Christel_2017/DNA_raw_data/ERR2028502.fastq.gz'
+    Processed 272465 lines.
+    Loaded 607308541 bp from:
+      54493 FASTQ format reads (607308541 bp).
+    WARNING: 14352 reads (26.3373%) with 5061616 bp (0.8266%) were too short (< 1000bp) and were ignored.
+
+Finished with:
+  0 warnings (bad base or qv, too short, too long)
+
+Loaded into store:
+  2998404754 bp.
+  215276 reads.
+
+Skipped (too short):
+  40535411 bp (1.3339%).
+  111679 reads (34.1573%).
+
+
+gatekeeperCreate did NOT finish successfully; too many short reads.  Check your reads!
+gatekeeperCreate finished successfully.

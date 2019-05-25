@@ -1,0 +1,21 @@
+Canu v1.7 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/akss94/lferriphilum-mix/trimming/1-overlapper
+
+Command:
+/sw/bioinfo/canu/1.7/rackham/Linux-amd64/bin/overlapInCore \
+  -G \
+  -t 4 \
+  -k 22 \
+  -k ../0-mercounts/lferriphilum.ms22.frequentMers.fasta \
+  --hashbits 23 \
+  --hashload 0.75 \
+  --maxerate 0.045 \
+  --minlength 500 \
+  -h 1-138503 \
+  -r 1-138503 \
+  --hashstrings 6525 \
+  --hashdatalen 85335632 \
+  -o ./001/000001.ovb.WORKING \
+  -s ./001/000001.stats ../lferriphilum.gkpStore

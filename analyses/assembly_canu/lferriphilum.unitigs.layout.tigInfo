@@ -1,0 +1,16 @@
+#tigID	tigLen	coordType	covStat	coverage	tigClass	sugRept	sugCirc	numChildren
+1	37705	ungapped	1.00	1.50	contig	no	no	2
+2	342713	ungapped	1.00	20.45	contig	no	no	577
+3	640495	ungapped	1.00	25.23	contig	no	no	1360
+4	1591706	ungapped	1.00	25.11	contig	no	no	3288
+5	26295	ungapped	1.00	4.03	contig	no	no	12
+6	41493	ungapped	1.00	7.12	contig	no	no	27
+7	15214	ungapped	1.00	2.70	contig	no	no	9
+8	9651	ungapped	1.00	3.99	contig	no	no	11
+9	3206	ungapped	1.00	2.54	contig	no	no	5
+10	36875	ungapped	1.00	1.00	contig	no	no	1
+11	36298	ungapped	1.00	2.77	contig	no	no	3
+12	41838	ungapped	1.00	13.48	contig	no	no	24
+13	43965	ungapped	1.00	3.60	contig	no	no	4
+14	36210	ungapped	1.00	1.00	contig	no	no	1
+15	42179	ungapped	1.00	1.00	contig	no	no	1

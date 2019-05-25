@@ -1,0 +1,14 @@
+Canu v1.7 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/akss94/lferriphilum-mix/correction/1-overlapper
+
+Command:
+/sw/bioinfo/canu/1.7/rackham/Linux-amd64/bin/gatekeeperDumpFASTQ \
+  -G ../lferriphilum.gkpStore \
+  -b 198001 \
+  -e 215276 \
+  -nolibname \
+  -noreadname \
+  -fasta \
+  -o ./blocks/000012.input

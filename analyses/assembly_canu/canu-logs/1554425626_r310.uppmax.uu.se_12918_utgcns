@@ -1,0 +1,15 @@
+Canu v1.7 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/akss94/lferriphilum-mix/unitigging/5-consensus
+
+Command:
+/sw/bioinfo/canu/1.7/rackham/Linux-amd64/bin/utgcns \
+  -G ../lferriphilum.utgStore/partitionedReads.gkpStore \
+  -T ../lferriphilum.utgStore 1 0001 \
+  -O ./utgcns/0001.cns.WORKING \
+  -maxcoverage 40 \
+  -e 0.075 \
+  -pbdagcon \
+  -edlib \
+  -threads 1-4

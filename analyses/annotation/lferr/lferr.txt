@@ -1,0 +1,11 @@
+organism: Leptospirillum ferriphilum DSM_14647 
+contigs: 1
+bases: 2546901
+gene: 2588
+CDS: 2525
+rRNA: 6
+misc_RNA: 8
+tmRNA: 1
+repeat_region: 1
+sig_peptide: 111
+tRNA: 48

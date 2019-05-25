@@ -1,0 +1,340 @@
+[16:48:53] This is prokka 1.12
+[16:48:53] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:48:53] Homepage is https://github.com/tseemann/prokka
+[16:48:53] Local time is Thu May 16 16:48:53 2019
+[16:48:53] You are akss94
+[16:48:53] Operating system is linux
+[16:48:53] You have BioPerl 1.007001
+[16:48:53] System has 20 cores.
+[16:48:53] Will use maximum of 20 cores.
+[16:48:53] Annotating as >>> Bacteria <<<
+[16:48:53] Generating locus_tag from 'lferr_genome_final.fasta' contents.
+[16:48:53] Setting --locustag BDKBJLID from MD5 bd4b352d68202adc4da2afdb0bd4ca71
+[16:48:53] Re-using existing --outdir lferr
+[16:48:53] Using filename prefix: lferr.XXX
+[16:48:53] Setting HMMER_NCPU=1
+[16:48:53] Writing log to: lferr/lferr.log
+[16:48:53] Command: /sw/apps/bioinfo/prokka/1.12-12547ca/rackham/bin/prokka --prefix lferr --force --addgenes --genus Leptospirillum --species ferriphilum --strain DSM_14647 --gram neg --usegenus --proteins Leptospirillum --cpus 0 --rfam lferr_genome_final.fasta
+[16:48:53] Appending to PATH: /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../binaries/linux
+[16:48:53] Appending to PATH: /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../binaries/linux/../common
+[16:48:53] Appending to PATH: /sw/bioinfo/prokka/1.12-12547ca/rackham/bin
+[16:48:53] Looking for 'aragorn' - found /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../binaries/linux/aragorn
+[16:48:53] Determined aragorn version is 1.2
+[16:48:53] Looking for 'barrnap' - found /sw/apps/bioinfo/barrnap/0.8/rackham/bin/barrnap
+[16:48:53] Determined barrnap version is 0.8
+[16:48:53] Looking for 'blastp' - found /sw/apps/bioinfo/blast/2.6.0+/rackham/bin/blastp
+[16:48:53] Determined blastp version is 2.6
+[16:48:53] Looking for 'cmpress' - found /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../binaries/linux/cmpress
+[16:48:53] Determined cmpress version is 1.1
+[16:48:53] Looking for 'cmscan' - found /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../binaries/linux/cmscan
+[16:48:53] Determined cmscan version is 1.1
+[16:48:53] Looking for 'egrep' - found /usr/bin/egrep
+[16:48:53] Looking for 'find' - found /usr/bin/find
+[16:48:53] Looking for 'grep' - found /usr/bin/grep
+[16:48:53] Looking for 'hmmpress' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmpress
+[16:48:53] Determined hmmpress version is 3.1
+[16:48:53] Looking for 'hmmscan' - found /sw/apps/bioinfo/hmmer/3.1b2/rackham/bin/hmmscan
+[16:48:53] Determined hmmscan version is 3.1
+[16:48:53] Looking for 'java' - found /usr/bin/java
+[16:48:53] Looking for 'less' - found /usr/bin/less
+[16:48:53] Looking for 'makeblastdb' - found /sw/apps/bioinfo/blast/2.6.0+/rackham/bin/makeblastdb
+[16:48:53] Determined makeblastdb version is 2.6
+[16:48:53] Looking for 'minced' - found /sw/apps/bioinfo/minced/0.2.0/rackham/minced
+[16:48:53] Determined minced version is 2.0
+[16:48:53] Looking for 'parallel' - found /sw/parallel/gnuparallel/20170122/rackham/bin/parallel
+[16:48:54] Determined parallel version is 20170122
+[16:48:54] Looking for 'prodigal' - found /sw/apps/bioinfo/prodigal/2.6.3/rackham/bin/prodigal
+[16:48:54] Determined prodigal version is 2.6
+[16:48:54] Looking for 'prokka-genbank_to_fasta_db' - found /sw/apps/bioinfo/prokka/1.12-12547ca/rackham/bin/prokka-genbank_to_fasta_db
+[16:48:54] Looking for 'sed' - found /usr/bin/sed
+[16:48:54] Looking for 'signalp' - found /sw/apps/bioinfo/SignalP/4.1f/rackham/signalp
+[16:48:54] Determined signalp version is 4.1
+[16:48:54] Looking for 'tbl2asn' - found /sw/apps/bioinfo/tbl2asn/20180629/rackham/tbl2asn
+[16:48:54] Determined tbl2asn version is 25.6
+[16:48:54] Using genetic code table 11.
+[16:48:54] Loading and checking input file: lferr_genome_final.fasta
+[16:48:54] Wrote 1 contigs totalling 2546901 bp.
+[16:48:54] Predicting tRNAs and tmRNAs
+[16:48:54] Running: aragorn -l -gc11  -w lferr\/lferr\.fna
+[16:48:56] 1 tRNA-Arg [4674,4751] 36 (ccg)
+[16:48:56] 2 tRNA-Asn [274740,274815] 34 (gtt)
+[16:48:56] 3 tRNA-Gly [291524,291598] 33 (gcc)
+[16:48:56] 4 tRNA-Lys c[352590,352665] 34 (ctt)
+[16:48:56] 5 tRNA-Ala c[430929,431004] 34 (cgc)
+[16:48:56] 6 tRNA-Glu [471651,471726] 35 (ctc)
+[16:48:56] 7 tRNA-Leu [477575,477661] 35 (taa)
+[16:48:56] 8 tRNA-Met c[525908,525982] 33 (cat)
+[16:48:56] 9 tRNA-Gln [572340,572413] 33 (ctg)
+[16:48:56] 10 tRNA-Val c[717304,717378] 33 (gac)
+[16:48:56] 11 tRNA-Val c[752713,752787] 33 (cac)
+[16:48:56] 12 tmRNA [828347,828705] 90,119 ANEELALAA*
+[16:48:56] 13 tRNA-Leu [863945,864028] 34 (gag)
+[16:48:56] 14 tRNA-Pro [886818,886894] 35 (tgg)
+[16:48:56] 15 tRNA-Met c[955802,955878] 35 (cat)
+[16:48:56] 16 tRNA-Ser c[965910,965999] 35 (cga)
+[16:48:56] 17 tRNA-Ser [967966,968051] 35 (tga)
+[16:48:56] 18 tRNA-Ser [968082,968174] 35 (gct)
+[16:48:56] 19 tRNA-Ser c[973616,973708] 35 (gga)
+[16:48:56] 20 tRNA-Leu c[1077953,1078039] 35 (caa)
+[16:48:56] 21 tRNA-Cys c[1153645,1153719] 33 (gca)
+[16:48:56] 22 tRNA-Arg [1154499,1154575] 35 (tcg)
+[16:48:56] 23 tRNA-His [1166176,1166250] 33 (gtg)
+[16:48:56] 24 tRNA-Arg [1180046,1180122] 35 (acg)
+[16:48:56] 25 tRNA-Met [1230743,1230818] 34 (cat)
+[16:48:56] 26 tRNA-Leu c[1269606,1269691] 34 (cag)
+[16:48:56] 27 tRNA-Arg c[1269930,1270006] 35 (tct)
+[16:48:56] 28 tRNA-Lys c[1281774,1281849] 34 (ttt)
+[16:48:56] 29 tRNA-Glu c[1404448,1404525] 37 (ttc)
+[16:48:56] 30 tRNA-Ala [1456173,1456248] 34 (ggc)
+[16:48:56] 31 tRNA-Gly [1557955,1558029] 33 (ccc)
+[16:48:56] 32 tRNA-Thr [1639625,1639700] 34 (tgt)
+[16:48:56] 33 tRNA-Val c[1740682,1740757] 34 (tac)
+[16:48:56] 34 tRNA-Asp [1741352,1741428] 35 (gtc)
+[16:48:56] 35 tRNA-Thr [1753710,1753784] 33 (cgt)
+[16:48:56] 36 tRNA-Phe c[2097423,2097498] 34 (gaa)
+[16:48:56] 37 tRNA-Pro [2172933,2173009] 35 (ggg)
+[16:48:56] 38 tRNA-Arg c[2248711,2248787] 35 (cct)
+[16:48:56] 39 tRNA-Ile [2267274,2267350] 35 (gat)
+[16:48:56] 40 tRNA-Ala [2267356,2267431] 34 (tgc)
+[16:48:56] 41 tRNA-Ala c[2338694,2338769] 34 (tgc)
+[16:48:56] 42 tRNA-Ile c[2338775,2338851] 35 (gat)
+[16:48:56] 43 tRNA-Pro c[2384098,2384174] 35 (cgg)
+[16:48:56] 44 tRNA-Trp c[2503871,2503947] 35 (cca)
+[16:48:56] 45 tRNA-Thr c[2505446,2505521] 34 (ggt)
+[16:48:56] 46 tRNA-Gly c[2505545,2505619] 33 (tcc)
+[16:48:56] 47 tRNA-Tyr c[2505656,2505741] 35 (gta)
+[16:48:56] 48 tRNA-Leu c[2507996,2508081] 34 (tag)
+[16:48:56] 49 tRNA-Gln c[2517912,2517986] 33 (ttg)
+[16:48:56] Found 49 tRNAs
+[16:48:56] Predicting Ribosomal RNAs
+[16:48:56] Running Barrnap with 20 threads
+[16:48:58] 1 tig00000001:1-2546901 2265628 16S ribosomal RNA
+[16:48:58] 2 tig00000001:1-2546901 2267568 23S ribosomal RNA
+[16:48:58] 3 tig00000001:1-2546901 2270621 5S ribosomal RNA
+[16:48:58] 4 tig00000001:1-2546901 2335395 5S ribosomal RNA
+[16:48:58] 5 tig00000001:1-2546901 2335581 23S ribosomal RNA
+[16:48:58] 6 tig00000001:1-2546901 2338942 16S ribosomal RNA
+[16:48:58] Found 6 rRNAs
+[16:48:58] Scanning for ncRNAs... please be patient.
+[16:48:58] Running: cmscan --rfam --cpu 20 -E 1e-06 --tblout /dev/stdout -o /dev/null --noali /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/cm/Bacteria lferr\/lferr\.fna
+[16:50:43] 1 ncRNA RNaseP_bact_a tig00000001:1-2546901 524652..524282
+[16:50:43] 2 ncRNA tmRNA tig00000001:1-2546901 828347..828705
+[16:50:43] 3 ncRNA RNaseP_arch tig00000001:1-2546901 524653..524285
+[16:50:43] 4 ncRNA Bacteria_small_SRP tig00000001:1-2546901 973569..973471
+[16:50:43] 5 ncRNA RNaseP_bact_b tig00000001:1-2546901 524648..524293
+[16:50:43] 6 ncRNA Bacteria_large_SRP tig00000001:1-2546901 973654..973451
+[16:50:43] 7 ncRNA 6S tig00000001:1-2546901 1499143..1499322
+[16:50:43] 8 ncRNA crcB tig00000001:1-2546901 127303..127373
+[16:50:43] Found 8 ncRNAs.
+[16:50:43] Total of 54 tRNA + rRNA features
+[16:50:43] Searching for CRISPR repeats
+[16:50:44] CRISPR1 tig00000001:1-2546901 1955889 with 18 spacers
+[16:50:44] Found 1 CRISPRs
+[16:50:44] Predicting coding sequences
+[16:50:44] Contigs total 2546901 bp, so using single mode
+[16:50:44] Running: prodigal -i lferr\/lferr\.fna -c -m -g 11 -p single -f sco -q
+[16:50:50] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:1230555..1230752 on + strand
+[16:50:50] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:1740748..1741194 on - strand
+[16:50:50] Excluding CDS which overlaps existing RNA (repeat_region) at tig00000001:1-2546901:1956724..1957347 on - strand
+[16:50:50] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:2172601..2172942 on + strand
+[16:50:50] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:2172970..2173914 on + strand
+[16:50:50] Excluding CDS which overlaps existing RNA (rRNA) at tig00000001:1-2546901:2270368..2270916 on - strand
+[16:50:50] Excluding CDS which overlaps existing RNA (rRNA) at tig00000001:1-2546901:2335121..2335582 on - strand
+[16:50:50] Excluding CDS which overlaps existing RNA (rRNA) at tig00000001:1-2546901:2340247..2340729 on + strand
+[16:50:50] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:2384097..2384333 on + strand
+[16:50:51] Excluding CDS which overlaps existing RNA (tRNA) at tig00000001:1-2546901:2507995..2509152 on + strand
+[16:50:51] Found 2525 CDS
+[16:50:51] Connecting features back to sequences
+[16:50:51] Looking for signal peptides at start of predicted proteins
+[16:50:51] Treating Bacteria as gram-
+[16:50:52] Running: signalp -t gram- -f short  lferr\/signalp\.faa 2> /dev/null
+[16:52:06] Found 111 signal peptides
+[16:52:06] Deleting unwanted file: lferr/signalp.faa
+[16:52:06] Skipping genus-specific proteins as can't see /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/Leptospirillum
+[16:52:06] Preparing user-supplied primary BLAST annotation source: Leptospirillum
+[16:52:06] Guessed source was in fasta format.
+[16:52:06] Running: makeblastdb -dbtype prot -in Leptospirillum -out lferr\/proteins -logfile /dev/null
+[16:52:07] Using /inference source as 'Leptospirillum'
+[16:52:07] Annotating CDS, please be patient.
+[16:52:07] Will use 20 CPUs for similarity searching.
+[16:52:08] There are still 2525 unannotated CDS left (started with 2525)
+[16:52:08] Will use blast to search against lferr/proteins with 20 CPUs
+[16:52:08] Running: cat lferr\/proteins\.faa | parallel --gnu --plain -j 20 --block 19444 --recstart '>' --pipe blastp -query - -db lferr/proteins -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > lferr\/proteins\.blast 2> /dev/null
+[16:52:23] Modify product: protein containing tetrapyrrole methyltransferase domain and MazG-like domain => protein containing tetrapyrrole methyltransferase domain and MazG-like domain protein
+[16:52:23] Modify product: Nucleoid-associated protein DP1429 => Nucleoid-associated protein
+[16:52:24] Modify product: permease of the major facilitator superfamily => permease of the major facilitator superfamily protein
+[16:52:24] Modify product: conserved hypothetical protein containing a thioredoxin domain => hypothetical protein
+[16:52:24] Modify product: putative peptidase M50 family => putative peptidase M50 family protein
+[16:52:24] Modify product: permease of the major facilitator superfamily => permease of the major facilitator superfamily protein
+[16:52:24] Modify product: conserved protein of unknown function => hypothetical protein
+[16:52:24] Modify product: permease of the major facilitator superfamily => permease of the major facilitator superfamily protein
+[16:52:24] Modify product: uncharacterized protein, probably involved in trehalose biosynthesis => putative protein, probably involved in trehalose biosynthesis
+[16:52:24] Modify product: putative cytochrome b561 family => putative cytochrome b561 family protein
+[16:52:24] Modify product: ferric uptake regulator protein Fur family => ferric uptake regulator protein Fur family protein
+[16:52:24] Modify product: transcriptional regulator LysR family => transcriptional regulator LysR family protein
+[16:52:25] Modify product: putative hydrolase of the metallo-beta-lactamase superfamily => putative hydrolase of the metallo-beta-lactamase superfamily protein
+[16:52:25] Modify product: cytochrome c NapC/NirT family => cytochrome c NapC/NirT family protein
+[16:52:25] Modify product: putative enzyme with a TIM-barrel fold => putative enzyme with a TIM-barrel fold protein
+[16:52:25] Modify product: aldo/keto reductase family => aldo/keto reductase family protein
+[16:52:26] Modify product: helicase conserved C-terminal domain protein => hypothetical protein
+[16:52:26] Modify product: permease of the major facilitator superfamily => permease of the major facilitator superfamily protein
+[16:52:26] Modify product: permease of the major facilitator superfamily => permease of the major facilitator superfamily protein
+[16:52:26] Modify product: DnaJ-class molecular chaperone with C-terminal Zn finger domain => hypothetical protein
+[16:52:26] Modify product: uncharacterized protein involved in cation transport => putative protein involved in cation transport
+[16:52:26] Modify product: putative esterase of the alpha-beta hydrolase superfamily => putative esterase of the alpha-beta hydrolase superfamily protein
+[16:52:26] Cleaned 22 /product names
+[16:52:26] Deleting unwanted file: lferr/proteins.faa
+[16:52:26] Deleting unwanted file: lferr/proteins.blast
+[16:52:26] There are still 579 unannotated CDS left (started with 2525)
+[16:52:26] Will use blast to search against /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/kingdom/Bacteria/sprot with 20 CPUs
+[16:52:26] Running: cat lferr\/sprot\.faa | parallel --gnu --plain -j 20 --block 2866 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > lferr\/sprot\.blast 2> /dev/null
+[16:52:36] Deleting unwanted file: lferr/sprot.faa
+[16:52:36] Deleting unwanted file: lferr/sprot.blast
+[16:52:36] There are still 575 unannotated CDS left (started with 2525)
+[16:52:36] Will use hmmer3 to search against /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/hmm/HAMAP.hmm with 20 CPUs
+[16:52:36] Running: cat lferr\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 20 --block 2839 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /sw/bioinfo/prokka/1.12-12547ca/rackham/bin/../db/hmm/HAMAP.hmm /dev/stdin > lferr\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[16:52:48] Deleting unwanted file: lferr/HAMAP.hmm.faa
+[16:52:48] Deleting unwanted file: lferr/HAMAP.hmm.hmmer3
+[16:52:49] Deleting unwanted file: lferr/proteins.psq
+[16:52:49] Deleting unwanted file: lferr/proteins.phr
+[16:52:49] Deleting unwanted file: lferr/proteins.pin
+[16:52:49] Labelling remaining 572 proteins as 'hypothetical protein'
+[16:52:49] Possible /pseudo 'protoporphyrinogen oxidase' at tig00000001:1-2546901 position 1180
+[16:52:49] Possible /pseudo 'chloride channel protein EriC' at tig00000001:1-2546901 position 3331
+[16:52:49] Possible /pseudo 'Putative restriction endonuclease' at tig00000001:1-2546901 position 40712
+[16:52:49] Possible /pseudo 'Transposase (or an inactivated derivative)' at tig00000001:1-2546901 position 67477
+[16:52:49] Possible /pseudo 'DNA replication protein DnaC' at tig00000001:1-2546901 position 74102
+[16:52:49] Possible /pseudo 'Transposase (or an inactivated derivative)' at tig00000001:1-2546901 position 78371
+[16:52:49] Possible /pseudo 'NADH ubiquinone oxidoreductase subunit 5' at tig00000001:1-2546901 position 102991
+[16:52:49] Possible /pseudo 'PAS domain S-box-containing protein' at tig00000001:1-2546901 position 108417
+[16:52:49] Possible /pseudo 'PAS domain S-box-containing protein' at tig00000001:1-2546901 position 108701
+[16:52:49] Possible /pseudo 'permease' at tig00000001:1-2546901 position 130921
+[16:52:49] Possible /pseudo 'membrane GTPase LepA' at tig00000001:1-2546901 position 156025
+[16:52:49] Possible /pseudo 'putative major facilitator superfamily transporter' at tig00000001:1-2546901 position 207398
+[16:52:49] Possible /pseudo 'putative hydroxypyruvate reductase/glycerate kinase' at tig00000001:1-2546901 position 211569
+[16:52:49] Possible /pseudo 'putative 2-deoxycytidine 5-triphosphate deaminase' at tig00000001:1-2546901 position 257042
+[16:52:49] Possible /pseudo 'HemD protein' at tig00000001:1-2546901 position 265105
+[16:52:49] Possible /pseudo 'heavy metal efflux pump, CzcA family' at tig00000001:1-2546901 position 307673
+[16:52:49] Possible /pseudo 'diguanylate cyclase with GAF sensor' at tig00000001:1-2546901 position 352242
+[16:52:49] Possible /pseudo 'NADH ubiquinone oxidoreductase' at tig00000001:1-2546901 position 353970
+[16:52:49] Possible /pseudo 'OmpA family protein' at tig00000001:1-2546901 position 364579
+[16:52:49] Possible /pseudo 'glycogen debranching protein' at tig00000001:1-2546901 position 504811
+[16:52:49] Possible /pseudo 'DNA-directed RNA polymerase, sigma70/sigma32 subunit' at tig00000001:1-2546901 position 527489
+[16:52:49] Possible /pseudo 'Tetratricopeptide repeat-containing protein' at tig00000001:1-2546901 position 581830
+[16:52:49] Possible /pseudo 'flagellar basal body rod protein' at tig00000001:1-2546901 position 624037
+[16:52:49] Possible /pseudo 'thymidylate kinase' at tig00000001:1-2546901 position 644510
+[16:52:49] Possible /pseudo 'Peroxiredoxin' at tig00000001:1-2546901 position 653912
+[16:52:49] Possible /pseudo '4-alpha-glucanotransferase' at tig00000001:1-2546901 position 705427
+[16:52:49] Possible /pseudo 'Pyruvate ferredoxin oxidoreductase' at tig00000001:1-2546901 position 730002
+[16:52:49] Possible /pseudo 'tRNA uridine 5-carboxymethylaminomethyl modification protein' at tig00000001:1-2546901 position 776308
+[16:52:49] Possible /pseudo 'Transposase DDE domain group 1' at tig00000001:1-2546901 position 782338
+[16:52:49] Possible /pseudo 'TPR repeat-containing protein' at tig00000001:1-2546901 position 800967
+[16:52:49] Possible /pseudo 'putative peptide chain release factor 3' at tig00000001:1-2546901 position 970295
+[16:52:49] Possible /pseudo 'secretion protein (HlyD)' at tig00000001:1-2546901 position 980048
+[16:52:49] Possible /pseudo 'aminomethyltransferase' at tig00000001:1-2546901 position 1000757
+[16:52:49] Possible /pseudo 'putative PAS/PAC sensor signal transduction histidine kinase' at tig00000001:1-2546901 position 1012523
+[16:52:49] Possible /pseudo 'putative binding-protein-dependent transport systems inner membrane component' at tig00000001:1-2546901 position 1057257
+[16:52:49] Possible /pseudo 'DNA topoisomerase' at tig00000001:1-2546901 position 1061490
+[16:52:49] Possible /pseudo 'methylenetetrahydrofolate--tRNA-(uracil-5-)- methyltransferase' at tig00000001:1-2546901 position 1062804
+[16:52:49] Possible /pseudo 'putative periplasmic sensor signal transduction histidine kinase' at tig00000001:1-2546901 position 1096739
+[16:52:49] Possible /pseudo 'diguanylate cyclase' at tig00000001:1-2546901 position 1103967
+[16:52:49] Possible /pseudo 'exinuclease ABC B subunit, UvrB' at tig00000001:1-2546901 position 1125196
+[16:52:49] Possible /pseudo 'RND family efflux transporter, MFP subunit' at tig00000001:1-2546901 position 1129389
+[16:52:49] Possible /pseudo 'proteasome-associated ATPase' at tig00000001:1-2546901 position 1138457
+[16:52:49] Possible /pseudo 'putative proteasome component' at tig00000001:1-2546901 position 1143311
+[16:52:49] Possible /pseudo 'putative permease' at tig00000001:1-2546901 position 1144979
+[16:52:49] Possible /pseudo 'proline-betaine transporter' at tig00000001:1-2546901 position 1153273
+[16:52:49] Possible /pseudo 'AcrB/AcrD/AcrF family protein' at tig00000001:1-2546901 position 1156910
+[16:52:49] Possible /pseudo 'putative DNA primase/helicase' at tig00000001:1-2546901 position 1182923
+[16:52:49] Possible /pseudo 'putative peptidase M16' at tig00000001:1-2546901 position 1194651
+[16:52:49] Possible /pseudo 'putative phosphoribosyltransferase' at tig00000001:1-2546901 position 1207952
+[16:52:49] Possible /pseudo 'ATPase involved in chromosome partitioning,Mrp' at tig00000001:1-2546901 position 1212734
+[16:52:49] Possible /pseudo 'MFS transporter, DHA2 family, multidrug resistance protein' at tig00000001:1-2546901 position 1229470
+[16:52:49] Possible /pseudo 'Putative beta-barrel porin-2, OmpL-like. bbp2' at tig00000001:1-2546901 position 1248809
+[16:52:49] Possible /pseudo 'Putative beta-barrel porin-2, OmpL-like. bbp2' at tig00000001:1-2546901 position 1249284
+[16:52:49] Possible /pseudo 'putative osmosensitive K+ channel signal transduction histidine kinase, sensor subunit (KdpD)' at tig00000001:1-2546901 position 1258376
+[16:52:49] Possible /pseudo 'putative nucleoside-diphosphate-sugar epimerase' at tig00000001:1-2546901 position 1268999
+[16:52:49] Possible /pseudo 'trehalose synthase' at tig00000001:1-2546901 position 1301519
+[16:52:49] Possible /pseudo 'PAS domain S-box-containing protein/diguanylate cyclase (GGDEF) domain-containing protein' at tig00000001:1-2546901 position 1316410
+[16:52:49] Possible /pseudo 'PEP-CTERM protein-sorting domain-containing protein' at tig00000001:1-2546901 position 1327187
+[16:52:49] Possible /pseudo 'Lactonase, 7-bladed beta-propeller' at tig00000001:1-2546901 position 1329447
+[16:52:49] Possible /pseudo 'Glycosyltransferase involved in cell wall bisynthesis' at tig00000001:1-2546901 position 1342498
+[16:52:49] Possible /pseudo 'putative glycosyl transferase, family 2' at tig00000001:1-2546901 position 1355656
+[16:52:49] Possible /pseudo 'peptidoglycan glycosyltransferase' at tig00000001:1-2546901 position 1419933
+[16:52:49] Possible /pseudo 'membrane protein' at tig00000001:1-2546901 position 1451092
+[16:52:49] Possible /pseudo 'NADH dehydrogenase (quinone) F subunit' at tig00000001:1-2546901 position 1518117
+[16:52:49] Possible /pseudo 'Cellulose biosynthesis protein BcsQ' at tig00000001:1-2546901 position 1569164
+[16:52:49] Possible /pseudo 'GTP-binding protein (Era)' at tig00000001:1-2546901 position 1612059
+[16:52:49] Possible /pseudo 'ATPase with chaperone activity, ATP-binding subunit' at tig00000001:1-2546901 position 1625703
+[16:52:49] Possible /pseudo 'nicotinate-nucleotide pyrophosphorylase' at tig00000001:1-2546901 position 1715302
+[16:52:49] Possible /pseudo '3-dehydroquinate synthase' at tig00000001:1-2546901 position 1735737
+[16:52:49] Possible /pseudo 'S-methyl-5'-thioadenosine phosphorylase' at tig00000001:1-2546901 position 1749458
+[16:52:49] Possible /pseudo 'metal-dependent protease with possible chaperone activity' at tig00000001:1-2546901 position 1778210
+[16:52:49] Possible /pseudo 'type IV secretion system protein VirD4' at tig00000001:1-2546901 position 1944227
+[16:52:49] Possible /pseudo 'putative membrane protein-like protein' at tig00000001:1-2546901 position 2061302
+[16:52:49] Possible /pseudo 'heptosyltransferase-1' at tig00000001:1-2546901 position 2115505
+[16:52:49] Possible /pseudo 'putative glycosyl transferase, family 9' at tig00000001:1-2546901 position 2139046
+[16:52:49] Possible /pseudo 'putative permease, YjgP/YjgQ family' at tig00000001:1-2546901 position 2157854
+[16:52:49] Possible /pseudo 'aspartate/tyrosine/aromatic aminotransferase' at tig00000001:1-2546901 position 2163977
+[16:52:49] Possible /pseudo 'beta-aspartyl-peptidase (threonine type)' at tig00000001:1-2546901 position 2186423
+[16:52:49] Possible /pseudo 'putative ABC transporter permease protein' at tig00000001:1-2546901 position 2195031
+[16:52:49] Possible /pseudo 'dihydrolipoamide dehydrogenase' at tig00000001:1-2546901 position 2204853
+[16:52:49] Possible /pseudo 'phosphoglucomutase, alpha-D-glucose phosphate-specific' at tig00000001:1-2546901 position 2210318
+[16:52:49] Possible /pseudo 'ORF6N domain-containing protein' at tig00000001:1-2546901 position 2237764
+[16:52:49] Possible /pseudo 'ORF6N domain-containing protein' at tig00000001:1-2546901 position 2237966
+[16:52:49] Possible /pseudo 'Transposase' at tig00000001:1-2546901 position 2239995
+[16:52:49] Possible /pseudo 'Transposase DDE domain group 1' at tig00000001:1-2546901 position 2242027
+[16:52:49] Possible /pseudo 'putative ABC transporter' at tig00000001:1-2546901 position 2322593
+[16:52:49] Possible /pseudo 'di-and tricarboxylate transporter' at tig00000001:1-2546901 position 2364312
+[16:52:49] Possible /pseudo 'histidine kinase' at tig00000001:1-2546901 position 2427984
+[16:52:49] Possible /pseudo 'putative major facilitator superfamily protein' at tig00000001:1-2546901 position 2463613
+[16:52:49] Possible /pseudo 'transaldolase' at tig00000001:1-2546901 position 2533286
+[16:52:49] Found 332 unique /gene codes.
+[16:52:49] Fixed 2 duplicate /gene - flgE_1 flgE_2
+[16:52:49] Fixed 2 duplicate /gene - era_1 era_2
+[16:52:49] Fixed 2 duplicate /gene - hemG_1 hemG_2
+[16:52:49] Fixed 2 duplicate /gene - rpoD_1 rpoD_2
+[16:52:49] Fixed 2 duplicate /gene - lepA_1 lepA_2
+[16:52:49] Fixed 2 duplicate /gene - kdpD2_1 kdpD2_2
+[16:52:49] Fixed 2 duplicate /gene - nadC_1 nadC_2
+[16:52:49] Fixed 2 duplicate /gene - aroB_1 aroB_2
+[16:52:49] Fixed 2 duplicate /gene - gidA_1 gidA_2
+[16:52:49] Fixed 2 duplicate /gene - tuf1_1 tuf1_2
+[16:52:49] Fixed 2 duplicate /gene - gid_1 gid_2
+[16:52:49] Fixed 2 duplicate /gene - ilvD-1_1 ilvD-1_2
+[16:52:49] Fixed 3 duplicate /gene - ilvD_1 ilvD_2 ilvD_3
+[16:52:49] Fixed 13 colliding /gene names.
+[16:52:49] Adding /locus_tag identifiers
+[16:52:49] Assigned 2588 locus_tags to CDS and RNA features.
+[16:52:49] Writing outputs to lferr/
+[16:52:52] Generating annotation statistics file
+[16:52:52] Generating Genbank and Sequin files
+[16:52:52] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z lferr\/lferr\.err -i lferr\/lferr\.fsa 2> /dev/null
+[16:53:00] Deleting unwanted file: lferr/errorsummary.val
+[16:53:00] Deleting unwanted file: lferr/lferr.dr
+[16:53:00] Deleting unwanted file: lferr/lferr.fixedproducts
+[16:53:00] Deleting unwanted file: lferr/lferr.ecn
+[16:53:00] Deleting unwanted file: lferr/lferr.val
+[16:53:00] Repairing broken .GBK output that tbl2asn produces...
+[16:53:00] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < lferr\/lferr\.gbf > lferr\/lferr\.gbk
+[16:53:00] Deleting unwanted file: lferr/lferr.gbf
+[16:53:00] Output files:
+[16:53:00] lferr/lferr.log
+[16:53:00] lferr/lferr.fna
+[16:53:00] lferr/lferr.gff
+[16:53:00] lferr/lferr.faa
+[16:53:00] lferr/lferr.ffn
+[16:53:00] lferr/lferr.tbl
+[16:53:00] lferr/lferr.fsa
+[16:53:00] lferr/lferr.tsv
+[16:53:00] lferr/lferr.txt
+[16:53:00] lferr/lferr.sqn
+[16:53:00] lferr/lferr.fna.fai
+[16:53:00] lferr/lferr.gbk
+[16:53:00] lferr/lferr.err
+[16:53:00] Annotation finished successfully.
+[16:53:00] Walltime used: 4.12 minutes
+[16:53:00] If you use this result please cite the Prokka paper:
+[16:53:00] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:53:00] Type 'prokka --citation' for more details.
+[16:53:00] Share and enjoy!

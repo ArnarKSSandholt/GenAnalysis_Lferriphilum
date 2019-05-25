@@ -1,0 +1,18 @@
+Canu v1.7 (+0 commits) r0 .
+
+Current Working Directory:
+/domus/h1/akss94/lferriphilum-mix/correction/2-correction
+
+Command:
+/sw/bioinfo/canu/1.7/rackham/Linux-amd64/bin/falconsense \
+  -G ../lferriphilum.gkpStore \
+  -C ../lferriphilum.corStore \
+  -b 130001 \
+  -e 135000 \
+  -r ./lferriphilum.readsToCorrect \
+  -t 4 \
+  -cc 4 \
+  -cl 1000 \
+  -oi 0.7 \
+  -ol 500 \
+  -p ./results/0027.WORKING
