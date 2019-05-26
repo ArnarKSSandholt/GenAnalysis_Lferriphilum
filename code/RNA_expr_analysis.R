@@ -5,10 +5,11 @@
 library(DESeq2)
 library(ggplot2)
 library(scales)
+library(pheatmap)
 
-coldata_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/column_data.csv"
-table_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/count_table.csv"
-plot_data_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/plot_table.csv"
+coldata_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/analyses/differential_expression/column_data.csv"
+table_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/analyses/differential_expression/count_table.csv"
+plot_data_loc = "/home/arnar/Documents/GitHub/GenomeAnalysis/analyses/differential_expression/plot_table.csv"
 
 cts = as.matrix(read.csv(table_loc,sep=",", row.names = "gene_id"))
 coldata = read.csv(coldata_loc, row.names = 1)
@@ -48,6 +49,13 @@ ggplot(plot_df, aes(x = Generalized.functional.category, y = log2FC)) +
   ylim(-5,7.5) +
   xlab("Generalized functional categories")
 
+ntd <- normTransform(dds)
 
-
-
+select <- order(rowMeans(counts(dds,normalized=TRUE)),
+                decreasing=TRUE)[1:20]
+df <- as.data.frame(colData(dds)[,c("condition","type")])
+pheatmap(assay(ntd)[select,], cluster_rows=FALSE, show_rownames=FALSE,
+         cluster_cols=FALSE, annotation_col=df)
+pheatmap(assay(vsd)[select,], cluster_rows=FALSE, show_rownames=FALSE,
+         cluster_cols=FALSE, annotation_col=df)
+  
